@@ -1,0 +1,19 @@
+1. mengulang proses pengurutan sebanyak jumlah array
+   contoh : jumlah array ada 10 maka pengulangan dilakukan sebanyak 10 kali, tetapi dimulai dari -1
+2. mengulang proses membandingkan nilai yang ada dalam setiap elemen array, dengan kondisi dimana
+   jika nilai pada elemen array ke-k lebih kecil dari nilai pada elemen array sebelumnya
+   maka nilai pada dua elemen array tersebut di tukar
+   contoh : nilai pada elemen array ke-k(ke-9) adalah 9, dan nilai elemen array sebelumnya (ke-8) adalah 10
+   maka nilainya akan ditukar menajdi, nilai pada elemen array ke-k(ke-9) menjadi 10 dan nilai pada elemen array sebelumnya(ke-8) menjadi 9
+
+   // sebelum ditukar
+   k -->	1 2 3 4 5 6 7 8  9
+   nilai -->	5 6 7 2 8 1 3 10 9
+
+   // sesudah ditukar
+   k -->	1 2 3 4 5 6 7 8 9
+   nilai -->	5 6 7 2 8 1 3 9 10
+
+   jika kondisi tidak memenuhi maka nilai tersebut tidak akan ditukar
+   contoh : 9 tidak lebih kecil dari 3 maka kedua nilai tersebut tidak akan ditukar
+3. jika proses membandingkan sudah selesai maka ulangi akan dilanjutkan mulai dari langkah pertama, hingga pengulangan proses pengurutan selesai. 
